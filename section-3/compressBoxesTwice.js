@@ -1,11 +1,12 @@
 function compressBoxesTwice(boxes, boxes2) {
-  boxes.forEach(function (boxrd) {
+  boxes.forEach(function (boxes) {
     console.log(boxes);
   });
 
-  boxes2.forEach(function (boxrd) {
+  boxes2.forEach(function (boxes) {
     console.log(boxes);
   });
 }
 
-// O(n + m)
+// O(a + b)
+// o(a * b)
